@@ -1,0 +1,17 @@
+:root {
+  --cor-principal: #33a8db;
+  --cor-gradiente: linear-gradient(to top, #33a8db, #1472b7);
+  --cor-background-footer: linear-gradient(
+    180deg,
+    rgba(51, 168, 219, 0) 0%,
+    rgba(51, 168, 219, 0.2) 99.99%,
+    rgba(51, 168, 219, 0.2) 100%
+  );
+
+  /* Fonts */
+  --fonte-titulo: 900 40px/1.2 "Raleway", sans-serif;
+  --fonte-titulo-2: 700 32px/1.2 "Raleway", sans-serif;
+  --fonte-subtitulo: 400 20px/1.2 "Raleway", sans-serif;
+  --fonte-base: 400 16px/1.2 "Raleway", sans-serif;
+  --fonte-botao: 900 16px/1.2 "Raleway", sans-serif;
+}
