@@ -67,3 +67,51 @@ header {
     }
   }
 }
+
+main {
+  margin-top: 118px;
+
+  #course-content {
+    text-align: center;
+    margin: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 90px;
+    max-width: 723px;
+
+    h2 {
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font: var(--fonte-titulo-2);
+      color: var(--cor-principal);
+      padding-bottom: 16px;
+    }
+
+    p {
+      font: var(--fonte-base);
+      padding-bottom: 24px;
+    }
+
+    .modules-list {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      max-width: 525px;
+
+      gap: 24px;
+      font: var(--fonte-base);
+
+      .module {
+        background-color: #252525;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        border: 1px solid var(--cor-principal);
+        border-radius: 57px;
+      }
+
+      span {
+        color: var(--cor-principal);
+      }
+    }
+  }
+}
